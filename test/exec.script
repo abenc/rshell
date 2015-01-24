@@ -1,0 +1,34 @@
+Script started on Fri 23 Jan 2015 09:36:01 PM PST
+]0;anir@anir-G550JK: ~/rshellanir@anir-G550JK:~/rshell$ bin/rshemm[K[Kll
+$ls -a 		  -l, ;mk  mkdior  r filetest;                
+total 36
+drwxrwxr-x  6 anir anir 4096 Jan 23 21:35 .
+drwxr-xr-x 21 anir anir 4096 Jan 23 21:29 ..
+drwxrwxr-x  2 anir anir 4096 Jan 23 21:35 bin
+drwxrwxr-x  8 anir anir 4096 Jan 23 21:02 .git
+-rw-rw-r--  1 anir anir  176 Jan 23 12:54 LICENSE
+-rw-rw-r--  1 anir anir  138 Jan 23 21:19 Makefile
+-rw-rw-r--  1 anir anir  370 Jan 23 21:29 README
+drwxrwxr-x  2 anir anir 4096 Jan 23 21:27 src
+drwxrwxr-x  2 anir anir 4096 Jan 23 21:36 test
+$ls -a		m l #tabul  , e         -l #tab, backspace + tab                   t  testing   space,      backspace, tab t & backspace mixed for   
+total 36
+drwxrwxr-x  6 anir anir 4096 Jan 23 21:35 .
+drwxr-xr-x 21 anir anir 4096 Jan 23 21:29 ..
+drwxrwxr-x  2 anir anir 4096 Jan 23 21:35 bin
+drwxrwxr-x  8 anir anir 4096 Jan 23 21:02 .git
+-rw-rw-r--  1 anir anir  176 Jan 23 12:54 LICENSE
+-rw-rw-r--  1 anir anir  138 Jan 23 21:19 Makefile
+-rw-rw-r--  1 anir anir  370 Jan 23 21:29 README
+drwxrwxr-x  2 anir anir 4096 Jan 23 21:27 src
+drwxrwxr-x  2 anir anir 4096 Jan 23 21:36 test
+$ls -a -       mkdir filetest;pwd   ls  ls   ;		ls -a: ; #testing multicommands, mixed s with spaces and tab
+/home/anir/rshell
+.  ..  bin  filetest  .git  LICENSE  Makefile  README  src  test
+$ls  ls
+bin  filetest  LICENSE	Makefile  README  src  test
+$exit
+]0;anir@anir-G550JK: ~/rshellanir@anir-G550JK:~/rshell$ exit
+exit
+
+Script done on Fri 23 Jan 2015 09:49:37 PM PST
