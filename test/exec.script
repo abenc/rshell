@@ -1,34 +1,39 @@
-Script started on Fri 23 Jan 2015 09:36:01 PM PST
-]0;anir@anir-G550JK: ~/rshellanir@anir-G550JK:~/rshell$ bin/rshemm[K[Kll
-$ls -a 		  -l, ;mk  mkdior  r filetest;                
-total 36
-drwxrwxr-x  6 anir anir 4096 Jan 23 21:35 .
-drwxr-xr-x 21 anir anir 4096 Jan 23 21:29 ..
-drwxrwxr-x  2 anir anir 4096 Jan 23 21:35 bin
-drwxrwxr-x  8 anir anir 4096 Jan 23 21:02 .git
+Script started on Fri 23 Jan 2015 10:21:34 PM PST
+]0;anir@anir-G550JK: ~/rshellanir@anir-G550JK:~/rshell$ ls ls ls ls ls
+ls: cannot access ls: No such file or directory
+ls: cannot access ls: No such file or directory
+ls: cannot access ls: No such file or directory
+ls: cannot access ls: No such file or directory
+]0;anir@anir-G550JK: ~/rshellanir@anir-G550JK:~/rshell$ ls;ls;ls;ls; #[K
+[0m[01;34mbin[0m  [01;34mfiletest[0m  LICENSE  Makefile  README.md  [01;34msrc[0m  [01;34mtest[0m
+[0m[01;34mbin[0m  [01;34mfiletest[0m  LICENSE  Makefile  README.md  [01;34msrc[0m  [01;34mtest[0m
+[0m[01;34mbin[0m  [01;34mfiletest[0m  LICENSE  Makefile  README.md  [01;34msrc[0m  [01;34mtest[0m
+[0m[01;34mbin[0m  [01;34mfiletest[0m  LICENSE  Makefile  README.md  [01;34msrc[0m  [01;34mtest[0m
+]0;anir@anir-G550JK: ~/rshellanir@anir-G550JK:~/rshell$ ls -a -l -a-[K -a -a -a -a -a -a -a -a #testing multip[Kflags
+total 40
+drwxrwxr-x  7 anir anir 4096 Jan 23 22:02 [0m[01;34m.[0m
+drwxr-xr-x 21 anir anir 4096 Jan 23 22:18 [01;34m..[0m
+drwxrwxr-x  2 anir anir 4096 Jan 23 22:20 [01;34mbin[0m
+drwxrwxr-x  2 anir anir 4096 Jan 23 21:40 [01;34mfiletest[0m
+drwxrwxr-x  8 anir anir 4096 Jan 23 22:19 [01;34m.git[0m
 -rw-rw-r--  1 anir anir  176 Jan 23 12:54 LICENSE
 -rw-rw-r--  1 anir anir  138 Jan 23 21:19 Makefile
--rw-rw-r--  1 anir anir  370 Jan 23 21:29 README
-drwxrwxr-x  2 anir anir 4096 Jan 23 21:27 src
-drwxrwxr-x  2 anir anir 4096 Jan 23 21:36 test
-$ls -a		m l #tabul  , e         -l #tab, backspace + tab                   t  testing   space,      backspace, tab t & backspace mixed for   
-total 36
-drwxrwxr-x  6 anir anir 4096 Jan 23 21:35 .
-drwxr-xr-x 21 anir anir 4096 Jan 23 21:29 ..
-drwxrwxr-x  2 anir anir 4096 Jan 23 21:35 bin
-drwxrwxr-x  8 anir anir 4096 Jan 23 21:02 .git
--rw-rw-r--  1 anir anir  176 Jan 23 12:54 LICENSE
--rw-rw-r--  1 anir anir  138 Jan 23 21:19 Makefile
--rw-rw-r--  1 anir anir  370 Jan 23 21:29 README
-drwxrwxr-x  2 anir anir 4096 Jan 23 21:27 src
-drwxrwxr-x  2 anir anir 4096 Jan 23 21:36 test
-$ls -a -       mkdir filetest;pwd   ls  ls   ;		ls -a: ; #testing multicommands, mixed s with spaces and tab
-/home/anir/rshell
-.  ..  bin  filetest  .git  LICENSE  Makefile  README  src  test
-$ls  ls
-bin  filetest  LICENSE	Makefile  README  src  test
+-rw-rw-r--  1 anir anir  370 Jan 23 21:29 README.md
+drwxrwxr-x  2 anir anir 4096 Jan 23 22:19 [01;34msrc[0m
+drwxrwxr-x  2 anir anir 4096 Jan 23 21:36 [01;34mtest[0m
+]0;anir@anir-G550JK: ~/rshellanir@anir-G550JK:~/rshell$ rshell
+No command 'rshell' found, did you mean:
+ Command 'lshell' from package 'lshell' (universe)
+ Command 'bshell' from package 'avahi-ui-utils' (universe)
+ Command 'pshell' from package 'python-pyramid' (universe)
+rshell: command not found
+]0;anir@anir-G550JK: ~/rshellanir@anir-G550JK:~/rshell$ bin[K[K[Kbin/rshell
 $exit
-]0;anir@anir-G550JK: ~/rshellanir@anir-G550JK:~/rshell$ exit
-exit
-
-Script done on Fri 23 Jan 2015 09:49:37 PM PST
+]0;anir@anir-G550JK: ~/rshellanir@anir-G550JK:~/rshell$ vim exe [Kc.[K[K[K[K[K[K[K[K[Kls
+[0m[01;34mbin[0m  [01;34mfiletest[0m  LICENSE  Makefile  README.md  [01;34msrc[0m  [01;34mtest[0m
+]0;anir@anir-G550JK: ~/rshellanir@anir-G550JK:~/rshell$ cd test/
+]0;anir@anir-G550JK: ~/rshell/testanir@anir-G550JK:~/rshell/test$ ls
+exec.script
+]0;anir@anir-G550JK: ~/rshell/testanir@anir-G550JK:~/rshell/test$ rpm[K[Km [K[K[Kcat exec.script 
+]0;anir@anir-G550JK: ~/rshell/testanir@anir-G550JK:~/rshell/test$ vim exec.script 
+[?1049h[?1h=[2;1H▽[6n[1;1H  [1;1H[1;58r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[58;1H"exec.script" 0L, 0C[>c[2;1H[1m[34m~                                                                                                                                                                                                            [3;1H~                                                                                                                                                                                                            [4;1H~                                                                                                                                                                                                            [5;1H~                                                                                                                                                                                                            [6;1H~                                                                                                                                                                                                            [7;1H~                                                                                                                                                                                                            [8;1H~                                                                                                                                                                                                            [9;1H~                                                                                                                                                                                                            [10;1H~                                                                                                                                                                                                            [11;1H~                                                                                                                                                                                                            [12;1H~                                                                                                                                                                                                            [13;1H~                                                                                                                                                                                                            [14;1H~                                                                                                                                                                                                            [15;1H~                                                                                                                                                                                                            [16;1H~                                                                                                                                                                                                            [17;1H~                                                                                                                                                                                                            [18;1H~                                                                                                                                                                                                            [19;1H~                                                                                                                                                                                                            [20;1H~                                                                                                                                                                                                            [21;1H~                                                                                                                                                                                                            [22;1H~                                                                                                                                                                                                            [23;1H~                                                                                                                                                                                                            [24;1H~                                                                                                                                                                                                            [25;1H~                                                                                                                                                                                                            [26;1H~                                                                                                                                                                                                            [27;1H~                                                                                                                                                                                                            [28;1H~                                                                                                                                                                                                            [29;1H~                                                                                                                                                                                                            [30;1H~                                                                                                                                                                                                            [31;1H~                                                                                                                                                                                                            [32;1H~                                                                                                                                                                                                            [33;1H~                                                                                                                                                                                                            [34;1H~                                                                                                                                                                                                            [35;1H~                                                                                                                                                                                                            [36;1H~                                                                                                                                                                                                            [37;1H~                                                                                                                                                                                                            [38;1H~                                                                                                                                                                                                            [39;1H~                                                                                                                                                                                                            [40;1H~                                                                                                                                                                                                            [41;1H~                                                                                                                                                                                                            [42;1H~                                                                                                                                                                                                            [43;1H~                                                                                                                                                                                                            [44;1H~                                                                                                                                                                                                            [45;1H~                                                                                                                                                                                                            [46;1H~                                                                                                                                                                                                            [47;1H~                                                                                           
