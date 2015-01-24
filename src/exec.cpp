@@ -28,7 +28,7 @@ int pid = fork();
 return 0;
 }
 
-//function used to fetch the cmd line entred by the user into a vector of string 
+//function used to fetch the cmd line entred by the user into a vector of vector<string> 
 vector<vector<string> > params(string chaine)
 {
 chaine.push_back(' ');
@@ -37,18 +37,30 @@ vector<string> args;
 vector<vector<string> > commandes;
 
  char check;
+char checkbis;
+bool comments = false;
 	for(string::iterator it= chaine.begin(); it !=chaine.end();++it)
 	{
 
 		 check = *it;
 	        if(check ==' '||check=='	'|| check==';'||it==chaine.end()|| check=='#' )
-		{
+		{	
+			if(check=='#')
+			{
+			checkbis=*(it-1);
+				if(checkbis == ' ')
+				{
+				if(arg.size()>=2)args.push_back(arg);
+				comments=true;
+				}
+			}
 			if(arg.size()>=2)args.push_back(arg);
 		arg.clear();	
 		}
-		else
+		else if(!comments)
 		{
-			arg.push_back(*it);
+		
+		arg.push_back(*it);
 		}
 		
 		if( (check ==';' || it==chaine.end()-1 ) && args.size()>0)
