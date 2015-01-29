@@ -10,7 +10,6 @@ using namespace std;
 int execute(char **cmd)
 {
 int pid = fork();
-
         if(pid==-1)
         {
         perror("fork fail");
@@ -36,7 +35,7 @@ string arg;
 vector<string> args;
 vector<vector<string> > commandes;
 
- char check;
+char check;
 char checkbis;
 bool comments = false;
 	for(string::iterator it= chaine.begin(); it !=chaine.end();++it)
@@ -85,13 +84,13 @@ return toReturn;
 //THIS IS THE MAIN FUNCTION 
 int main(int argc, char **argv)
 {
-
+bool loop = true;
 string chaine;
 vector<string> args;
-	while(true)
+	while(loop)
 	{
 	chaine = prompt();
-		if(chaine =="exit")
+		if(chaine =="exit") 
 		{
 		break;
 		}
@@ -118,6 +117,12 @@ vector<string> args;
 		for(int k =0;k< commandeChar.size();k++)
 		{
 		cmd=&commandeChar[k][0];
+		string check = commandeChar[k][0];
+			if(check == "exit")//used to check if there is an exit comming after some commands 
+			{
+			loop=false;
+			break;
+			}
 		execute(cmd);
 		}	
 	/*	args=params(chaine);
