@@ -13,12 +13,16 @@ int pid = fork();
         if(pid==-1)
         {
         perror("fork fail");
-        exit(1);
+        exit(0);
 	}
         else if(pid == 0)
         {
-                if(execvp(cmd[0],cmd)!=0)perror("fork fail");
+                if(execvp(cmd[0],cmd)!=0)
+		{
+		perror("fork fail");
+		}
 	exit(0);
+	return -1;
         }
 	else
 	{
@@ -89,13 +93,8 @@ string chaine;
 vector<string> args;
 	while(loop)
 	{
+	cout<<"begin loop"<<endl;
 	chaine = prompt();
-		if(chaine =="exit") 
-		{
-		break;
-		}
-		else
-		{
 		vector<vector<string> > commandes = params(chaine);
 		vector<vector<char *> > commandeChar;
 		vector<char *> commandeCharSolo;
@@ -114,16 +113,23 @@ vector<string> args;
 			}
 		}
 		char **cmd;
+	
+		string check;
+	
 		for(int k =0;k< commandeChar.size();k++)
 		{
 		cmd=&commandeChar[k][0];
-		string check = commandeChar[k][0];
+	        check = commandeChar[k][0];
+		
 			if(check == "exit")//used to check if there is an exit comming after some commands 
 			{
 			loop=false;
 			break;
 			}
-		execute(cmd);
+			else
+			{			
+			execute(cmd);
+			}
 		}	
 	/*	args=params(chaine);
 		vector<char *> vecky;
@@ -134,7 +140,7 @@ vector<string> args;
 		vecky.push_back(NULL);
 		char **cmd =&vecky[0];	
 		execute(cmd);	*/
-		}
+		
 	}
 return 0;
 }
