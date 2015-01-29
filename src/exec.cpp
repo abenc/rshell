@@ -93,7 +93,6 @@ string chaine;
 vector<string> args;
 	while(loop)
 	{
-	cout<<"begin loop"<<endl;
 	chaine = prompt();
 		vector<vector<string> > commandes = params(chaine);
 		vector<vector<char *> > commandeChar;
