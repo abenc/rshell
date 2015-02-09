@@ -1,0 +1,81 @@
+Script started on Sun 08 Feb 2015 11:53:24 PM PST
+]0;anir@anir-G550JK: ~/rshell/testanir@anir-G550JK:~/rshell/test$ cd ..
+]0;anir@anir-G550JK: ~/rshellanir@anir-G550JK:~/rshell$ make
+g++ -o bin/ls src/ls.cpp
+g++ -o bin/rshell src/exec.cpp
+]0;anir@anir-G550JK: ~/rshellanir@anir-G550JK:~/rshell$ bin/ls
+Makefile	src	LICENSE	filetest	README.md	test	bin	TESTREPO	
+]0;anir@anir-G550JK: ~/rshellanir@anir-G550JK:~/rshell$ bin [K/ls -a
+..	Makefile	src	.	LICENSE	filetest	README.md	test	.git	bin	TESTREPO	
+]0;anir@anir-G550JK: ~/rshellanir@anir-G550JK:~/rshell$ bin/ls -al
+-rwxr-xr-x 27 anir anir 4096  Feb  8 23:48 ..
+-rw-rw-r-- 1 anir anir 171  Feb  8 23:45 Makefile
+-rwxrwxr-x 2 anir anir 4096  Feb  8 23:48 src
+-rwxrwxr-x 8 anir anir 4096  Feb  8 23:45 .
+-rw-rw-r-- 1 anir anir 181  Feb  3 11:21 LICENSE
+-rwxrwxr-x 2 anir anir 4096  Jan 23 21:40 filetest
+-rw-rw-r-- 1 anir anir 370  Feb  3 11:22 README.md
+-rwxrwxr-x 2 anir anir 4096  Feb  8 23:53 test
+-rwxrwxr-x 8 anir anir 4096  Feb  8 23:46 .git
+-rwxrwxr-x 2 anir anir 4096  Feb  8 23:53 bin
+-rwxrwxr-x 2 anir anir 4096  Jan 23 22:26 TESTREPO
+
+]0;anir@anir-G550JK: ~/rshellanir@anir-G550JK:~/rshell$ bin/ls -al[1Pl
+-rw-rw-r-- 1 anir anir 171  Feb  8 23:45 Makefile
+-rwxrwxr-x 2 anir anir 4096  Feb  8 23:48 src
+-rw-rw-r-- 1 anir anir 181  Feb  3 11:21 LICENSE
+-rwxrwxr-x 2 anir anir 4096  Jan 23 21:40 filetest
+-rw-rw-r-- 1 anir anir 370  Feb  3 11:22 README.md
+-rwxrwxr-x 2 anir anir 4096  Feb  8 23:53 test
+-rwxrwxr-x 2 anir anir 4096  Feb  8 23:53 bin
+-rwxrwxr-x 2 anir anir 4096  Jan 23 22:26 TESTREPO
+
+]0;anir@anir-G550JK: ~/rshellanir@anir-G550JK:~/rshell$ bin/ls -l  
+bin/       .git/      Makefile   src/       TESTREPO/  
+filetest/  LICENSE    README.md  test/      
+]0;anir@anir-G550JK: ~/rshellanir@anir-G550JK:~/rshell$ bin/ls -l  
+bin/       .git/      Makefile   src/       TESTREPO/  
+filetest/  LICENSE    README.md  test/      
+]0;anir@anir-G550JK: ~/rshellanir@anir-G550JK:~/rshell$ bin/ls -l         -a
+-rwxr-xr-x 27 anir anir 4096  Feb  8 23:48 ..
+-rw-rw-r-- 1 anir anir 171  Feb  8 23:45 Makefile
+-rwxrwxr-x 2 anir anir 4096  Feb  8 23:48 src
+-rwxrwxr-x 8 anir anir 4096  Feb  8 23:45 .
+-rw-rw-r-- 1 anir anir 181  Feb  3 11:21 LICENSE
+-rwxrwxr-x 2 anir anir 4096  Jan 23 21:40 filetest
+-rw-rw-r-- 1 anir anir 370  Feb  3 11:22 README.md
+-rwxrwxr-x 2 anir anir 4096  Feb  8 23:53 test
+-rwxrwxr-x 8 anir anir 4096  Feb  8 23:46 .git
+-rwxrwxr-x 2 anir anir 4096  Feb  8 23:53 bin
+-rwxrwxr-x 2 anir anir 4096  Jan 23 22:26 TESTREPO
+
+]0;anir@anir-G550JK: ~/rshellanir@anir-G550JK:~/rshell$ bin/ls -l         -a[Kl [Ka
+-rwxr-xr-x 27 anir anir 4096  Feb  8 23:48 ..
+-rw-rw-r-- 1 anir anir 171  Feb  8 23:45 Makefile
+-rwxrwxr-x 2 anir anir 4096  Feb  8 23:48 src
+-rwxrwxr-x 8 anir anir 4096  Feb  8 23:45 .
+-rw-rw-r-- 1 anir anir 181  Feb  3 11:21 LICENSE
+-rwxrwxr-x 2 anir anir 4096  Jan 23 21:40 filetest
+-rw-rw-r-- 1 anir anir 370  Feb  3 11:22 README.md
+-rwxrwxr-x 2 anir anir 4096  Feb  8 23:53 test
+-rwxrwxr-x 8 anir anir 4096  Feb  8 23:46 .git
+-rwxrwxr-x 2 anir anir 4096  Feb  8 23:53 bin
+-rwxrwxr-x 2 anir anir 4096  Jan 23 22:26 TESTREPO
+
+]0;anir@anir-G550JK: ~/rshellanir@anir-G550JK:~/rshell$ bin/ls -l         -la[K[K[K[K[K[K[K[K[K[K[K-l -a- [K[K -a -l -a -l -l-[K -l
+-rwxr-xr-x 27 anir anir 4096  Feb  8 23:48 ..
+-rw-rw-r-- 1 anir anir 171  Feb  8 23:45 Makefile
+-rwxrwxr-x 2 anir anir 4096  Feb  8 23:48 src
+-rwxrwxr-x 8 anir anir 4096  Feb  8 23:45 .
+-rw-rw-r-- 1 anir anir 181  Feb  3 11:21 LICENSE
+-rwxrwxr-x 2 anir anir 4096  Jan 23 21:40 filetest
+-rw-rw-r-- 1 anir anir 370  Feb  3 11:22 README.md
+-rwxrwxr-x 2 anir anir 4096  Feb  8 23:53 test
+-rwxrwxr-x 8 anir anir 4096  Feb  8 23:46 .git
+-rwxrwxr-x 2 anir anir 4096  Feb  8 23:53 bin
+-rwxrwxr-x 2 anir anir 4096  Jan 23 22:26 TESTREPO
+
+]0;anir@anir-G550JK: ~/rshellanir@anir-G550JK:~/rshell$ exit
+exit
+
+Script done on Sun 08 Feb 2015 11:54:17 PM PST
